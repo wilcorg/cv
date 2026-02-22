@@ -9,25 +9,15 @@
 
 #cvSkill(
 	type: [Programming languages],
-	info: [C++ | Rust | C | Java | Python | Ada],
-)
-
-#cvSkill(
-	type: [Databases],
-	info: [MariaDB | PostgreSQL],
-)
-
-#cvSkill(
-	type: [Build tools],
-	info: [CMake | Cargo | Maven],
+	info: [*C++* | *Python* | Java | Rust | Go | C | Ada],
 )
 
 #cvSkill(
 	type: [Technologies],
-	info: [Boost C++ | Spring Framework | Linux | Docker | GitHub Actions | REST API | QEMU | Design Patterns, Webpage Parsing],
+	info: [Boost C++ | OpenCV | YOLO CNN | Spring Framework | Linux | Docker | GitHub Actions | REST API],
 )
 
 #cvSkill(
 	type: [Social skills],
-	info: [Critical Thinking | Team Player | Good Communication | Problem Resolution | Organization],
+	info: [Critical Thinking | Team Player | Good Communication | Problem Resolution | Motivation],
 )

@@ -6,13 +6,13 @@
 #import "../metadata.typ": *
 #import "@preview/fontawesome:0.6.0": *
 
-#fa-version("6")
+#fa-version("7")
 
 /* Layout */
 
 #let layout(doc) = {
   set text(
-    font: ("Source Sans Pro", "Font Awesome 6 Brands", "Font Awesome 6 Free"),
+    font: ("Source Sans Pro", "Font Awesome 7 Brands", "Font Awesome 7 Free", "Font Awesome 7 Free Solid"),
     weight: "regular",
     size: 9pt,
   )
@@ -82,7 +82,7 @@
 #let headerFirstNameStyle(str) = {text(
   font: headerFont,
   size: 32pt,
-  weight: "light",
+  weight: "bold",
   fill: regularColors.darkgray,
   str
 )}
@@ -91,6 +91,7 @@
   font: headerFont,
   size: 32pt,
   weight: "bold",
+    fill: regularColors.darkgray,
   str
 )}
 
@@ -220,14 +221,14 @@
 
 #let makeHeaderInfo() = {
   let personalInfoIcons = (
-    phone: fa-phone(solid: true),
-    email: fa-envelope(),
+    phone: fa-phone(),
+    email: fa-envelope(solid: true),
     linkedin: fa-linkedin(),
-    homepage: fa-pager(),
-    github: fa-square-github(),
+    homepage: fa-earth-americas(),
+    github: fa-square-github(solid: true),
     orcid: fa-orcid(),
     researchgate: fa-researchgate(),
-    leetcode: fa-earth-americas(solid: true),
+    leetcode: fa-earth-americas(),
     extraInfo: "",
   )
   let n = 1
